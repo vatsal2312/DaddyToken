@@ -69,7 +69,6 @@ abstract contract ReentrancyGuard {
 
 // File @openzeppelin/contracts/token/ERC20/IERC20.sol@v4.4.2
 
-// SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.4.1 (token/ERC20/IERC20.sol)
 
 pragma solidity ^0.8.0;
@@ -155,7 +154,6 @@ interface IERC20 {
 
 // File @openzeppelin/contracts/utils/Context.sol@v4.4.2
 
-// SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.4.1 (utils/Context.sol)
 
 pragma solidity ^0.8.0;
@@ -183,7 +181,6 @@ abstract contract Context {
 
 // File contracts/Ownable.sol
 
-// SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.4.0 (access/Ownable.sol)
 
 pragma solidity ^0.8.0;
@@ -249,7 +246,6 @@ abstract contract Ownable is Context {
 
 // File contracts/ISaleVesting.sol
 
-// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 interface ISaleVesting {
@@ -271,7 +267,6 @@ interface ISaleVesting {
 
 // File contracts/PreSaleVesting.sol
 
-// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 interface DaddyInterface is IERC20 {
     function burn(uint256 amount) external;
